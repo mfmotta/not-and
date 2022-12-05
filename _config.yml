@@ -15,14 +15,13 @@
 # in the templates via {{ site.myvariable }}.
 title: open learning
 email: mariele.f.motta@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Hi! I'm Mariele and this is `not-and`, a place to register and share things I'm learning, or not.
+description: # >- # this means to ignore newlines until "baseurl:"
+  Hi! I'm Mariele and this is `not-and`, a place to register and share things I'm learning, or not[^1].
 
-  [^1]
+[^1]: Thanks to [Julia Evans's blog post!](https://jvns.ca/blog/2014/10/08/how-to-set-up-a-blog-in-5-minutes/)
 
-[^1]: Thanks to [Julia Evans's blog post!](https://jvns.ca/blog/2014/10/08/how-to-set-up-a-blog-in-5-minutes/) 
-baseurl: "mfmotta/not-and" # the subpath of your site, e.g. /blog
-url: "https://github.com/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/not-and" # the subpath of your site, e.g. /blog
+url: "https://github.com/mfmotta" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MarieleMotta_
 github_username:  mfmotta
 
