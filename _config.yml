@@ -23,8 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 [^1]: Thanks to [Julia Evans's blog post!](https://jvns.ca/blog/2014/10/08/how-to-set-up-a-blog-in-5-minutes/) 
 baseurl: "mfmotta/not-and" # the subpath of your site, e.g. /blog
 url: "https://github.com/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: MarieleMotta_
+github_username:  mfmotta
 
 
 
