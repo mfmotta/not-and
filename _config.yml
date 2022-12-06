@@ -13,11 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: open learning
-subtitle: Hi! I'm Mariele and this is `not-and`, a place to register and share things I'm learning, or not.
+title: not-and
+#subtitle: Hi! I'm Mariele and this is `not-and`, a place to register and share things I'm learning, or not.
 email: mariele.f.motta@gmail.com
-description: a place to register and share things I'm learning, or not
-excerpt: Test excerpt
+description: >- # this means to ignore newlines until "baseurl:"
+        a space for learning in the open
+#excerpt: Test excerpt
 #description: # >- # this means to ignore newlines until "baseurl:"
 
 #{{ page.excerpt }}
@@ -35,18 +36,19 @@ navigation: 2
 markdown: kramdown
 redcarpet:
     extensions: [
-        'no_intra_emphasis',
-        'fenced_code_blocks',
-        'autolink',
-        'strikethrough',
-        'superscript',
-        'with_toc_data',
-        'tables',
-        'hardwrap'
+        'footnotes',
+        # 'no_intra_emphasis',
+        # 'fenced_code_blocks',
+        # 'autolink',
+        # 'strikethrough',
+        #'superscript',
+        # 'with_toc_data',
+        # 'tables',
+        # 'hardwrap'
     ]
-    #theme: minima
-    #plugins:
-    #- jekyll-feed
+theme: minima
+plugins:
+- jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
